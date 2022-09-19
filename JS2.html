@@ -1,0 +1,60 @@
+<html>
+<head>
+	
+	
+</head>
+	<body>
+		<button type="button" id="btn1"> Submit</button>
+		<button type="button" id="btn2"> Click Me</button>
+		
+		<button type="button" onclick="alert('Inline JS')"> Inline Button</button>
+		<script src="myJS.js">
+		</script>
+	//Javascript Variables -- var
+		<script>	
+		var name="Edubridge";
+		var course="Java";
+		var time=3;
+		var isGood=true;
+		
+		function func()
+		{
+			var time=4;
+			console.log(time);
+		}
+		func();
+		console.log(name);
+		console.log(time);
+		var course="Ruby";
+
+		//Let and Const keyword
+
+		//Let is an improved version of Var
+		//Var- global and local scoped,,,,, let- block scoped
+		//Variables cannot be redeclared using let keyword but updated 	
+		//Variables can be declared with same name using let in diff blocks
+		
+		let a=10;
+		
+		function f() {
+		if(true)
+		{
+		let a =6;
+		let b =9;
+		
+		
+		console.log(b);
+		}
+		//console.log(b);
+		}
+		f();
+		console.log(a);
+		
+		//Const keyword
+		//declaring constant
+		const PI=3.14;
+		
+		console.log(PI);
+		</script>
+	</body>
+</html>
